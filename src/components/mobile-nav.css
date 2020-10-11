@@ -1,0 +1,32 @@
+.nav-wrapper {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  padding: 100px 10px;
+  z-index: 20;
+  font-family: monospace;
+
+  width: 100vw;
+  height: 100vh;
+
+  background-color: var(--yellow);
+}
+
+.nav-wrapper li {
+  list-style: none;
+  padding: 20px 0;
+}
+
+.nav-wrapper a {
+  display: block;
+  text-align: left;
+  font-size: 3rem;
+  color: var(--black);
+  text-decoration: none;
+}
+
+.nav-wrapper a:hover {
+  text-decoration: line-through;
+}

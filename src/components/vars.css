@@ -1,0 +1,22 @@
+:root {
+  /* COLORS */
+  --cream: #fcf3ea;
+  --cream--dark: hsl(30, 75%, 10%);
+  --black: #444;
+  --yellow: #fbba00;
+  --yellow-tranOne: rgba(251, 186, 0, 0.5);
+  --yellow-tranTwo: rgba(251, 186, 0, 0.25);
+
+  /* TYPOGRAPHY */
+  --primary-font: "Averia Serif Libre", cursive;
+  --secondary-font: "PT Mono", monospace;
+
+  /* Z-INDEX */
+  --negative: -5;
+  --background: 0;
+  --midground: 15;
+  --foreground: 30;
+
+  /* BREAK POINTS */
+  --mid-break: 1300px;
+}
